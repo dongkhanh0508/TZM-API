@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TradeMap.API</name>
+    </assembly>
+    <members>
+        <member name="M:TradeMap.API.Controllers.AccountsController.AuthenticateWebAdminAsync(TradeMap.Service.DTO.Request.AuthenticateModelWebAdmin)">
+            <summary>
+            Login
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.AccountsController.VerifyJwtTradeZoneMap(TradeMap.Service.DTO.Request.VerifyJwtRequest)">
+            <summary>
+            Verify jwt token
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.AccountsController.GetAccount">
+            <summary>
+            Get Account
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.AccountsController.UpdateAccount(System.Guid,TradeMap.Service.DTO.Request.PutAccountRequest)">
+            <summary>
+            Update Account
+            </summary>
+            <param name="accountId"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.BrandsController.GetBrands">
+            <summary>
+            Get Brands
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.BrandsController.PostBrand(TradeMap.Service.DTO.Request.PostBrandRequest)">
+            <summary>
+            Post Brand
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.BuildingsController.GetBuildingForMap(TradeMap.Service.DTO.Request.PostMapRequest)">
+            <summary>
+            get building for map
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.BuildingsController.GetBuildingById(System.Int32)">
+            <summary>
+            Get Building by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.BuildingsController.InsertBuiding(TradeMap.Service.DTO.Request.PostBuildingRequest)">
+            <summary>
+            Insert Building
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.CampusController.InsertCampus(TradeMap.Service.DTO.Request.PostCampusRequest)">
+            <summary>
+            Insert Campus
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.CampusController.GetCampusForMap(TradeMap.Service.DTO.Request.PostMapRequest)">
+            <summary>
+            Get Campus for Map
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.CategoriesController.GetSegment">
+            <summary>
+            Get Categories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.
+				ctsController.GetSystemZoneForMap(TradeMap.Service.DTO.Request.PostMapRequest)">
+            <summary>
+            get District for map
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.StoresController.InsertStore(TradeMap.Service.DTO.Request.PostStoresRequest)">
+            <summary>
+            Insert Store
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.StoresController.GetDataForMap(TradeMap.Service.DTO.Request.PostMapRequest)">
+            <summary>
+            Get Store for map
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.StoresController.GetStoreByBrandId">
+            <summary>
+            Get Store of Brand
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.StoresController.GetStoreById(System.Int32)">
+            <summary>
+            Get Store by id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.StoresController.UpdateStore(System.Int32,TradeMap.Service.DTO.Request.PutStoresRequest)">
+            <summary>
+            Update Store
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.StoresController.DeleteStore(System.Int32)">
+            <summary>
+            Delete Store
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.StreetSegmentsController.InsertStreetSegment(TradeMap.Service.DTO.Request.PostStreetSegmentRequest)">
+            <summary>
+            Insert Street Segment
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.StreetSegmentsController.GettSegment(System.Int32,System.String)">
+            <summary>
+            Get Street Segment by BuildingId or StoreId
+            </summary>
+            <param name="Id"></param>
+            <param name="Type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.SurveyorController.GetTaskByI">
+            <summary>
+            Get Task by SurveyorId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.SystemZonesController.InsertSystemZone(TradeMap.Service.DTO.Request.PostSystemZoneRequset)">
+            <summary>
+            Insert System Zone
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.SystemZonesController.GetSystemZoneForMap(TradeMap.Service.DTO.Request.PostMapRequest)">
+            <summary>
+            Get System Zone for Map
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.SystemZonesController.UpdateSystemZone(System.Int32,TradeMap.Service.DTO.Request.PutSystemZone)">
+            <summary>
+            Update System Zone
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.TaskSurveyController.GetTaskSurvey(TradeMap.Service.DTO.Request.TaskSurveyRequest)">
+            <summary>
+            Get Task Survey with Paging, Sorting, Filter
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.TaskSurveyController.GetTaskByID(System.Guid)">
+            <summary>
+            Get Task by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.TaskSurveyController.CreateTask(TradeMap.Service.DTO.Request.PostTaskSurveyRequest)">
+            <summary>
+            Create Task
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.TaskSurveyController.DeleteTask(System.Guid)">
+            <summary>
+            Delete Task
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.WardsController.GetWards">
+            <summary>
+            Get Ward
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.WardsController.GetWadrForMap(TradeMap.Service.DTO.Request.PostMapRequest)">
+            <summary>
+            Get Ward for map
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TradeMap.API.Controllers.WardsController.GetWadrForMap(TradeMap.Service.DTO.Request.PostMultiPolygon)">
+            <summary>
+            Check Ward contains Multipolygon
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
